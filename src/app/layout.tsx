@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dhananjay Singh",
+  title: "Global-Chat",
   description: "Portfolio of Dhananjay Singh",
 };
 
