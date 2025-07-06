@@ -17,7 +17,7 @@ Includes real-time chat (with polling fallback), live analytics, beautiful themi
 
 ## 🖥️ Demo
 
-> **Live Demo:** [app-url](https://global-chat-tau.vercel.app/)
+> **Live Demo:** [app-url](https://phoenix-pfw.vercel.app/)
 
 ## 📦 Tech Stack
 
