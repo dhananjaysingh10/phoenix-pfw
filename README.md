@@ -93,12 +93,6 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 - Fluid simulation effect
 
-## ⚙️ Configuration
-
-You can tweak the following in your `.env.local`:
-
-- `MONGODB_URI` — MongoDB Atlas connection string
-
 ## 📝 Folder Structure
 
 ```
@@ -149,6 +143,4 @@ Please open an issue for bugs or feature requests.
 
 **Dhananjay Singh**  
 [LinkedIn](https://www.linkedin.com/in/dhananjay-singh-0335a5259/)  
-[X](https://x.com/DhananjaySing_h)  
-[Email](mailto:itsdhananjaysingh04@gmail.com
-)
+[X](https://x.com/DhananjaySing_h)
