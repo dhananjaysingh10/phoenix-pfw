@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import {  useMotionValue, useSpring } from "framer-motion";
-// import Tippy from '@tippyjs/react'; // <-- Tippy.js import
+import Tippy from '@tippyjs/react'; 
 import { useInView } from "@/hooks/useInView";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -89,7 +89,7 @@ export default function Analytics() {
                         <CardDescription>Unique Visitors</CardDescription>
                     </div>
                 </div>
-                <CardTitle className="mb-4 text-center">Visitors by Country</CardTitle>
+                <CardTitle className="mb-4 text-center">Views by Country</CardTitle>
                 {loading ? (
                     <div className="flex flex-col space-y-3">
                         <Skeleton className="h-[200px] w-full" />
@@ -100,26 +100,25 @@ export default function Analytics() {
                         </div>
                     </div>
                 ) : (
-                    // Make chart horizontally scrollable on small screens
                     <div className="w-full overflow-x-auto">
                         <div style={{ minWidth: 400, maxWidth: 700, margin: "0 auto" }}>
                             <ResponsiveContainer width="100%" height={250}>
                                 <BarChart
                                     data={geoStats}
                                     margin={{ top: 5, right: 4, bottom: 20, left: 4 }}
-                                    barCategoryGap="1%" // Controls gap between bars
+                                    barCategoryGap="1%" 
                                 >
                                     <XAxis dataKey="country" />
                                     <YAxis allowDecimals={false} />
                                     <Bar
                                         dataKey="count"
                                         fill="#2563eb"
-                                        barSize={32} // Fixed bar width
-                                        // shape={(props: any) => (
-                                        //     <Tippy content={`${props.payload.country}: ${props.payload.count} visitors`}>
-                                        //         <rect {...props} style={{ cursor: "pointer" }} />
-                                        //     </Tippy>
-                                        // )}
+                                        barSize={32} 
+                                        shape={(props: any) => (
+                                            <Tippy content={`${props.payload.country}: ${props.payload.count}`}>
+                                                <rect {...props} style={{ cursor: "pointer" }} />
+                                            </Tippy>
+                                        )}
                                     />
                                 </BarChart>
                             </ResponsiveContainer>

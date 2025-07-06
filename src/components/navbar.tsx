@@ -3,9 +3,8 @@ import Image from "next/image"
 export default function Navbar() {
   return (
     <nav className="p-4 md:p-6 border-b border-border flex items-center justify-between w-full">
-      {/* Logo & Title */}
+     
       <div className="flex items-center gap-3">
-        {/* Theme-aware SVG logo */}
         <Image
           src="/logo4.svg"
           alt="Phoenix Logo"
@@ -17,8 +16,6 @@ export default function Navbar() {
           phoenix
         </h1>
       </div>
-
-      {/* Dark/Light mode toggle */}
       <ModeToggle />
     </nav>
   )
