@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <>
-    {/* <SplashCursor/> */}
+    <SplashCursor/> 
       <Navbar />
       <div className="w-full min-h-screen flex flex-col gap-2">
         <Dialog open={showConsent} onOpenChange={setShowConsent}>
