@@ -53,7 +53,7 @@ export default function Experience() {
                 <CardTitle className="text-lg">Mahindra Logistics</CardTitle>
                 <div className="flex justify-between text-sm text-muted-foreground">
                   <span>SDE Intern</span>
-                  <span>Apr 2025 – Present</span>
+                  <span>Apr 2025 - Jun 2025</span>
                 </div>
               </CardHeader>
               <CardContent>
@@ -78,7 +78,7 @@ export default function Experience() {
         <DialogContent className="max-w-lg max-h-[80vh] flex flex-col">
           <DialogHeader>
             <DialogTitle>SDE Intern</DialogTitle>
-            <DialogDescription>Mahindra Logistics • Apr 2025 – Present</DialogDescription>
+            <DialogDescription>Mahindra Logistics • Apr 2025 - Jun 2025</DialogDescription>
           </DialogHeader>
           
           <div className="overflow-y-auto flex-grow py-2 pr-2">
