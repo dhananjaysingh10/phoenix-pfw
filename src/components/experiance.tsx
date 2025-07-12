@@ -50,7 +50,7 @@ export default function Experience() {
             </div> */}
             <Card className="bg-background/50 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-lg">Tech Mahindra</CardTitle>
+                <CardTitle className="text-lg">Mahindra Logistics</CardTitle>
                 <div className="flex justify-between text-sm text-muted-foreground">
                   <span>SDE Intern</span>
                   <span>Apr 2025 – Present</span>
@@ -78,7 +78,7 @@ export default function Experience() {
         <DialogContent className="max-w-lg max-h-[80vh] flex flex-col">
           <DialogHeader>
             <DialogTitle>SDE Intern</DialogTitle>
-            <DialogDescription>Tech Mahindra • Apr 2025 – Present</DialogDescription>
+            <DialogDescription>Mahindra Logistics • Apr 2025 – Present</DialogDescription>
           </DialogHeader>
           
           <div className="overflow-y-auto flex-grow py-2 pr-2">
